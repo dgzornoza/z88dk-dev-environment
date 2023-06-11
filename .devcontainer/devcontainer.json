@@ -1,0 +1,21 @@
+{
+	"name": "z88dk-dev-environment",
+	"image": "z88dk-dev-image:2.2",
+	"initializeCommand": "docker build -f .devcontainer/Dockerfile -t z88dk-dev-image:2.2 .",
+	"runArgs": [
+		"--name=${localWorkspaceFolderBasename}"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"maziac.dezog",
+				"maziac.asm-code-lens",
+				"maziac.hex-hover-converter",
+				"maziac.sna-fileviewer",
+				"maziac.z80-instruction-set",
+				"ms-vscode.makefile-tools"
+			]
+		}
+	}
+}

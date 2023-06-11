@@ -27,6 +27,7 @@ Project to set up a development environment for zx spectrum with z88dk in a visu
 ## Remarks
 
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.
+The first time it takes about 10 minutes to compile the image with the latest Z88DK sources.
 
 ## Releases
 

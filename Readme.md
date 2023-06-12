@@ -4,7 +4,8 @@ z88dk Developer Container Environment for Visual Studio Code.
 
 ## Features
 
-Project to set up a development environment for zx spectrum with z88dk in a visual studio code dev-container
+Project to set up a development environment for zx spectrum with z88dk in a visual studio code dev-container.
+Environment using DeZog for debugging ASM with C source code tags.
 
 ## Requirements
 

@@ -56,5 +56,5 @@ dirs:
 
 .PHONY: report
 report: 
-	$(MEM_FREE) $(EXEC_OUTPUT)
+	sh $(MEM_FREE) ./$(OUT_DIR)/$(EXEC_OUTPUT).map
 

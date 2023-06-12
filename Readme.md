@@ -29,7 +29,7 @@ Environment using DeZog for debugging ASM with C source code tags.
 ## Remarks
 
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.
-The first time it takes about 10 minutes to compile the image with the latest Z88DK sources.
+The first time it download docker hub image with the Z88DK sources from 2023-06-12.
 
 ## Releases
 

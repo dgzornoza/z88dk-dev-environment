@@ -1,7 +1,6 @@
 {
 	"name": "z88dk-dev-environment",
-	"image": "z88dk-dev-image:2.2",
-	"initializeCommand": "docker build -f .devcontainer/Dockerfile -t z88dk-dev-image:2.2 .",
+	"image": "dgzornoza/z88dk-dev:latest",	
 	"runArgs": [
 		"--name=${localWorkspaceFolderBasename}"
 	],

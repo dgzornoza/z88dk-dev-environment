@@ -26,6 +26,8 @@ Environment using DeZog for debugging ASM with C source code tags.
 - Set break point in main.c.lis and press F5 to debug
 - All ready to develop your project
 
+https://github.com/dgzornoza/z88dk-dev-environment/assets/7240189/b688a008-af47-4b45-b31c-d45f6e889f59
+
 ## Remarks
 
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.

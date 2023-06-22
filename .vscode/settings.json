@@ -1,5 +1,5 @@
 {
     "C_Cpp.default.includePath": [
-        "/home/zelion/z88dk/include/_DEVELOPMENT/sdcc"
+        "/opt/z88dk/include/_DEVELOPMENT/sdcc"
     ]
 }

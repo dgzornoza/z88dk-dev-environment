@@ -6,7 +6,8 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "build": false,
+        "build": true,
+        ".tmp": true,
     },
     "C_Cpp.default.includePath": [
         "/opt/z88dk/include/_DEVELOPMENT/sdcc"

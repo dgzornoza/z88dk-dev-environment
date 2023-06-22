@@ -1,13 +1,34 @@
-/* C source start */
+#include <stdio.h>
 
-#include <arch/zx.h>
-#include "functions.c"
+int a[5] = {0, 1, 2, 3, 4};
 
-int main()
+extern void neg_and_triple_a(void); // implemented elsewhere
+
+void negate_odd_a(void)
 {
-  int result = sum(5, 10);
-  zx_border(INK_BLACK);
-  return 0;
+    int i;
+
+    for (i = 0; i != 5; ++i)
+    {
+        if (a[i] & 0x01)
+        {
+            a[i] = -a[i]; // negate odd numbers in array a[]
+        }
+    }
+
+    return;
 }
 
-/* C source end */
+main()
+{
+    int i;
+
+    neg_and_triple_a(); // call to asm subroutine
+
+    for (i = 0; i != 5; ++i)
+    {
+        printf("a[%d]=%d\n", i, a[i]);
+    }
+
+    return 0;
+}

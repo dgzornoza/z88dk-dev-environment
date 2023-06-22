@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# REMARKS: this file should be in LF, if is in CLRF end line can't execute witth errors ": not foundport.sh: line XX"
+
 echo ""
 echo "---------- REPORT -------------"
 

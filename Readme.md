@@ -33,6 +33,15 @@ https://github.com/dgzornoza/z88dk-dev-environment/assets/7240189/b688a008-af47-
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.
 The first time it download docker hub image with the Z88DK sources from 2023-06-12.
 
+Souce sample is from: https://www.z88dk.org/wiki/doku.php?id=temp:front#mixing_c_and_assembly_language
+
+## Links of interest 
+
+- z88dk: https://z88dk.org/site/
+- zx spectrum starter guide: https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_01_GettingStarted.md
+- mixing C and ASM https://www.z88dk.org/wiki/doku.php?id=temp:front#mixing_c_and_assembly_language
+- CRTs reference https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_02_HelloWorld.md
+
 ## Releases
 
 ### 2.2.0

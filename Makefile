@@ -2,10 +2,10 @@
 EXEC_OUTPUT=output
 
 # List all your source files here
-SOURCES = main.c
+SOURCES = main.c nata.asm
 
-# Maybe you'll need to edit this
-CRT=31
+# Set CRT
+CRT=0
 
 # You don't need to edit below here, have a happy coding.
 

@@ -6,9 +6,7 @@ extern void neg_and_triple_a(void); // implemented elsewhere
 
 void negate_odd_a(void)
 {
-    int i;
-
-    for (i = 0; i != 5; ++i)
+    for (int i = 0; i != 5; ++i)
     {
         if (a[i] & 0x01)
         {
@@ -21,11 +19,9 @@ void negate_odd_a(void)
 
 main()
 {
-    int i;
-
     neg_and_triple_a(); // call to asm subroutine
 
-    for (i = 0; i != 5; ++i)
+    for (int i = 0; i != 5; ++i)
     {
         printf("a[%d]=%d\n", i, a[i]);
     }

@@ -41,6 +41,8 @@ Souce sample is from: https://www.z88dk.org/wiki/doku.php?id=temp:front#mixing_c
 - zx spectrum starter guide: https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_01_GettingStarted.md
 - mixing C and ASM https://www.z88dk.org/wiki/doku.php?id=temp:front#mixing_c_and_assembly_language
 - CRTs reference https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_02_HelloWorld.md
+- ASM tutorial https://wiki.speccy.org/cursos/ensamblador/indice
+- ASM tutorials and sample coe https://espamatica.com/
 
 ## Releases
 

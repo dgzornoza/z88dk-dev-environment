@@ -33,7 +33,7 @@ https://github.com/dgzornoza/z88dk-dev-environment/assets/7240189/b688a008-af47-
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.
 The first time it download docker hub image with the Z88DK sources from 2023-06-12.
 
-Souce sample is from: https://www.z88dk.org/wiki/doku.php?id=temp:front#mixing_c_and_assembly_language
+Source sample is from: https://www.z88dk.org/wiki/doku.php?id=temp:front#mixing_c_and_assembly_language
 
 ## Links of interest 
 

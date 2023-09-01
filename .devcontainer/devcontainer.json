@@ -13,7 +13,8 @@
 				"maziac.hex-hover-converter",
 				"maziac.sna-fileviewer",
 				"maziac.z80-instruction-set",
-				"ms-vscode.makefile-tools"
+				"ms-vscode.makefile-tools",
+				"theNestruo.z80-asm-meter"
 			]
 		}
 	}

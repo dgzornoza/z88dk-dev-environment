@@ -1,6 +1,7 @@
 # z88dk-dev-environment README
 
 z88dk Developer Container Environment for Visual Studio Code.
+Author: David González Zornoza
 
 ## Features
 

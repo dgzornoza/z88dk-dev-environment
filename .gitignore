@@ -1,3 +1,4 @@
 build/
 .tmp/
 src/*.c.lis
+*.lis

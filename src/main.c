@@ -1,4 +1,12 @@
-#include <stdio.h>
+#define CLASSIC 1
+
+#if CLASSIC > 0
+#include <arch/zx/spectrum.h>
+#else
+#include <arch/zx.h>
+#endif
+
+#include <stdlib.h>
 
 int a[5] = {0, 1, 2, 3, 4};
 
@@ -17,14 +25,23 @@ void negate_odd_a(void)
     return;
 }
 
-main()
+void plot(unsigned char x, unsigned char y)
 {
+    *zx_pxy2saddr(x, y) |= zx_px2bitmask(x);
+}
+
+int main(void)
+{
+    unsigned char i;
+
     neg_and_triple_a(); // call to asm subroutine
 
-    for (int i = 0; i != 5; ++i)
+    for (i = 0; i < 15; i++)
     {
-        printf("a[%d]=%d\n", i, a[i]);
+        plot(rand() % 256, rand() % 192);
     }
 
     return 0;
 }
+
+/* C source end */

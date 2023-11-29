@@ -6,10 +6,14 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "build": true,
+        "build": false,
         ".tmp": true,
     },
     "C_Cpp.default.includePath": [
-        "/opt/z88dk/include/_DEVELOPMENT/sdcc"
-    ]
+        //"/opt/z88dk/include/_DEVELOPMENT/sdcc"
+        "/opt/z88dk/include/"
+    ],
+    "files.associations": {
+        "spectrum.h": "c"
+    }
 }

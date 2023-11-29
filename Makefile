@@ -8,7 +8,7 @@ SOURCES = main.c nata.asm
 CRT=0
 
 # You don't need to edit below here, have a happy coding.
-
+CLIB=#-clib=sdcc_iy # comment param to use classic lib
 MKDIR = mkdir -p
 CC=zcc
 AS=zcc
@@ -23,8 +23,8 @@ OBJS=$(patsubst %, src/%, $(OBJECTS))
 
 C_OPT_FLAGS=-SO3 --max-allocs-per-node200000 --opt-code-size
 
-CFLAGS=$(TARGET) $(VERBOSITY) -c $(C_OPT_FLAGS) -compiler sdcc -clib=sdcc_iy -pragma-include:$(PRAGMA_FILE)
-LDFLAGS=$(TARGET) $(VERBOSITY) --list -m --c-code-in-asm -clib=sdcc_iy -pragma-include:$(PRAGMA_FILE) $(CREATE_SNA)
+CFLAGS=$(TARGET) $(VERBOSITY) -c $(C_OPT_FLAGS) -compiler=sdcc $(CLIB) -pragma-include:$(PRAGMA_FILE)
+LDFLAGS=$(TARGET) $(VERBOSITY) --list -m --c-code-in-asm $(CLIB) -pragma-include:$(PRAGMA_FILE) $(CREATE_SNA)
 ASFLAGS=$(TARGET) $(VERBOSITY) --list -m -s -c
 
 EXEC=$(OUT_DIR)/$(EXEC_OUTPUT).tap

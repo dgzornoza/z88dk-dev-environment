@@ -4,11 +4,13 @@ EXEC_OUTPUT=output
 # List all your source files here
 SOURCES = main.c nata.asm
 
+# Set empty param to use classic lib
+CLIB=-clib=sdcc_iy
+
 # Set CRT
 CRT=0
 
 # You don't need to edit below here, have a happy coding.
-CLIB=#-clib=sdcc_iy # comment param to use classic lib
 MKDIR = mkdir -p
 CC=zcc
 AS=zcc

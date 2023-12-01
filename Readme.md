@@ -29,6 +29,9 @@ Environment using DeZog for debugging ASM with C source code tags.
 
 https://github.com/dgzornoza/z88dk-dev-environment/assets/7240189/b688a008-af47-4b45-b31c-d45f6e889f59
 
+## Options
+The sample is developed to use standard lib and new lib, by default is new lib. If you want to use classic lib, You'll need to leave the `clib` parameter empty in the makefile and set `define CLASSIC 1` in main.c file.
+
 ## Remarks
 
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.

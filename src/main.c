@@ -1,4 +1,4 @@
-#define CLASSIC 1
+#define CLASSIC 0
 
 #if CLASSIC > 0
 #include <arch/zx/spectrum.h>

@@ -10,7 +10,7 @@
         ".tmp": true,
     },
     "C_Cpp.default.includePath": [
-        //"/opt/z88dk/include/_DEVELOPMENT/sdcc"
+        "/opt/z88dk/include/_DEVELOPMENT/sdcc",
         "/opt/z88dk/include/"
     ],
     "files.associations": {

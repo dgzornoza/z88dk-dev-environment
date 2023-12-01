@@ -8,7 +8,7 @@ SOURCES = main.c nata.asm
 CLIB=-clib=sdcc_iy
 
 # Set CRT
-CRT=0
+CRT=31
 
 # You don't need to edit below here, have a happy coding.
 MKDIR = mkdir -p

@@ -6,6 +6,9 @@
 	],
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/ash"
+			},
 			"extensions": [
 				"ms-vscode.cpptools-extension-pack",
 				"maziac.dezog",

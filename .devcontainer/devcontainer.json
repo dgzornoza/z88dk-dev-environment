@@ -1,24 +1,26 @@
 {
-	"name": "z88dk-dev-environment",
-	"image": "dgzornoza/z88dk-dev:latest",	
-	"runArgs": [
-		"--name=${localWorkspaceFolderBasename}"
-	],
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"terminal.integrated.shell.linux": "/bin/ash"
-			},
-			"extensions": [
-				"ms-vscode.cpptools-extension-pack",
-				"maziac.dezog",
-				"maziac.asm-code-lens",
-				"maziac.hex-hover-converter",
-				"maziac.sna-fileviewer",
-				"maziac.z80-instruction-set",
-				"ms-vscode.makefile-tools",
-				"theNestruo.z80-asm-meter"
-			]
-		}
-	}
+    "name": "z88dk-dev-environment",
+    "image": "dgzornoza/z88dk-dev:latest",
+    "runArgs": [
+        "--name=${localWorkspaceFolderBasename}"
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "dev.containers.mountWaylandSocket": false,
+                "terminal.integrated.shell.linux": "/bin/ash"
+            },
+            "extensions": [
+                "mutantdino.resourcemonitor",
+                "ms-vscode.cpptools-extension-pack",
+                "maziac.dezog",
+                "maziac.asm-code-lens",
+                "maziac.hex-hover-converter",
+                "maziac.sna-fileviewer",
+                "maziac.z80-instruction-set",
+                "ms-vscode.makefile-tools",
+                "theNestruo.z80-asm-meter"
+            ]
+        }
+    }
 }
